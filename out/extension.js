@@ -35,7 +35,7 @@ function activate(context) {
       terminal = vscode.window.createTerminal("[Mocha Test Terminal]");
     }
     terminal.show();
-    terminal.sendText(`cd ${filePath}..\\..`);
+    terminal.sendText(`cd ${filePath}../..`);
     terminal.sendText(
       `gulp build; mocha -g '${testName}' ${testFileName} --exit`
     );
