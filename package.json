@@ -3,7 +3,7 @@
     "displayName": "test-from-contextmenu",
     "description": "Run tests from context menu",
     "publisher": "sgr",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.28.0"
     },
@@ -23,7 +23,7 @@
             "editor/context": [{
                 "when": "resourceLangId == javascript",
                 "command": "extension.runTest",
-                "group": "YourGroup@1"
+                "group": "test-from-contextmenu@1"
           }]
         }
     },
